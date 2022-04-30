@@ -1,0 +1,15 @@
+server:
+  port: 8088
+  ssl:
+    enabled: true
+    protocol: TLS
+    enabled-protocols: TLSv1.2
+    key-store: classpath:server-keystore.p12
+    key-alias: sandboxtls
+    key-password: secret
+    key-store-type: PKCS12
+    key-store-password: secret
+    client-auth: need
+    trust-store: classpath:server-truststore.p12
+    trust-store-type: PKCS12
+    trust-store-password: secret

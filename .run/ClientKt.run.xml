@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ClientKt" type="JetRunConfigurationType" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="sandbox.tls.client.ClientKt" />
+    <module name="sandbox-tls.main" />
+    <option name="PROGRAM_PARAMETERS" value="securemtls" />
+    <shortenClasspath name="NONE" />
+    <option name="VM_PARAMETERS" value="-Djavax.net.debug=SSL,keymanager,trustmanager,ssl:handshake" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

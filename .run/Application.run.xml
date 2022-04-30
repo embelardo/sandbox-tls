@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <option name="ACTIVE_PROFILES" />
+    <module name="sandbox-tls.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="sandbox.tls.Application" />
+    <option name="VM_PARAMETERS" value="-Djavax.net.debug=SSL,keymanager,trustmanager,ssl:handshake" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="sandbox.tls.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
